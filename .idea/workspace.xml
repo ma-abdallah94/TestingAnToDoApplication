@@ -5,19 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="428ecb06-734e-4869-8105-59c0d2cdc88d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/baseWithAnotherWay/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/baseWithAnotherWay/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/factory/BaseFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/pages/LoginPagePageFactoryClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/pages/NewToDoPagePageFactoryClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/pages/ToDoPagePageFactoryClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/pagesWithoutPageFactory/LoginPage2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/pagesWithoutPageFactory/NewToDoPage2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/pagesWithoutPageFactory/ToDoPage2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/testcases/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/testcases/ToDoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,19 +40,137 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="11" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2DDuYjs5QrEIblt07ruZEYpUVIl" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.4634378&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qacart.todo.pages" />
+      <recent name="com.qacart.todo.testcases" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.LoginTest">
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestingAnToDoApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qacart.todo.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qacart.todo.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.qacart.todo.testcases.LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.ShouldBeAbleToLoginWithEmailAndPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestingAnToDoApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qacart.todo.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qacart.todo.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.qacart.todo.testcases.LoginTest" />
+      <option name="METHOD_NAME" value="ShouldBeAbleToLoginWithEmailAndPassword" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToDoTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestingAnToDoApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qacart.todo.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qacart.todo.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.qacart.todo.testcases.ToDoTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToDoTest.ShouldBeAbleToAddNewToDo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestingAnToDoApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qacart.todo.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qacart.todo.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.qacart.todo.testcases.ToDoTest" />
+      <option name="METHOD_NAME" value="ShouldBeAbleToAddNewToDo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToDoTest.ShouldBeAbleToDeleteToDo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestingAnToDoApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qacart.todo.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qacart.todo.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.qacart.todo.testcases.ToDoTest" />
+      <option name="METHOD_NAME" value="ShouldBeAbleToDeleteToDo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.LoginTest.ShouldBeAbleToLoginWithEmailAndPassword" />
+        <item itemvalue="TestNG.ToDoTest.ShouldBeAbleToAddNewToDo" />
+        <item itemvalue="TestNG.ToDoTest" />
+        <item itemvalue="TestNG.ToDoTest.ShouldBeAbleToDeleteToDo" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,5 +192,19 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="TestingAnToDoApplication" type="b2602c69:ProjectViewProjectNode" />
+        <item name="TestingAnToDoApplication" type="462c0819:PsiDirectoryNode" />
+      </path>
+      <path>
+        <item name="TestingAnToDoApplication" type="b2602c69:ProjectViewProjectNode" />
+        <item name="TestingAnToDoApplication" type="462c0819:PsiDirectoryNode" />
+        <item name="src" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
   </component>
 </project>
