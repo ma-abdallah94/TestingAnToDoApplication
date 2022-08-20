@@ -1,5 +1,6 @@
 package com.qacart.todo.pagesWithoutPageFactory;
 
+import com.qacart.todo.utils.ConfigUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -14,6 +15,11 @@ public class ToDoPage2 {
 
         public ToDoPage2(WebDriver driver) {
             this.driver = driver ;
+        }
+
+        public ToDoPage2 load(){
+            driver.get(ConfigUtils.getInstance().baseUrl() + "/todo");
+            return this ;
         }
 
 

@@ -1,8 +1,12 @@
 package com.qacart.todo.pagesWithoutPageFactory;
 
 
+import com.qacart.todo.utils.ConfigUtils;
+import com.qacart.todo.utils.PropUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+
+import java.util.Properties;
 
 public class LoginPage2 {
 
@@ -10,6 +14,7 @@ public class LoginPage2 {
     private By emailInput2 = By.cssSelector("#login");
     private By PasswordIn2 = By.cssSelector("[data-testid=\"password\"]");
     private By submit2 = By.cssSelector("[data-testid=\"submit\"]");
+
 
     public LoginPage2(WebDriver driver) {
         this.driver=driver ;
@@ -23,7 +28,7 @@ public class LoginPage2 {
     }
 
     public LoginPage2 load() {
-        driver.get("https://qacart-todo.herokuapp.com");
+        driver.get(ConfigUtils.getInstance().baseUrl());;
         return this;
     }
 
