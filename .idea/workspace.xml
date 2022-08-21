@@ -5,29 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="428ecb06-734e-4869-8105-59c0d2cdc88d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/api/RegisterAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/api/TasksAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/config/EndPoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/config/production.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/objects/Tasks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/objects/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/testcases/BuildingRegister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/testcases/Dummy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/utils/ConfigUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/utils/CookieUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/utils/PropUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/utils/UserUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/qacart/todo/factory/BaseFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/factory/BaseFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qacart/todo/pages/LoginPagePageFactoryClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/pagesWithPageFactory/LoginPagePageFactoryClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qacart/todo/pages/NewToDoPagePageFactoryClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/pagesWithPageFactory/NewToDoPagePageFactoryClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qacart/todo/pages/ToDoPagePageFactoryClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/pagesWithPageFactory/ToDoPagePageFactoryClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qacart/todo/pagesWithoutPageFactory/LoginPage2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/pagesWithoutPageFactory/LoginPage2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qacart/todo/pagesWithoutPageFactory/ToDoPage2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/pagesWithoutPageFactory/ToDoPage2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/qacart/todo/testcases/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/testcases/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/qacart/todo/testcases/ToDoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qacart/todo/testcases/ToDoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,24 +45,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.4634378",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.4634378&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.qacart.todo.pages" />
       <recent name="com.qacart.todo.testcases" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ToDoTest.ShouldBeAbleToDeleteToDo">
+  <component name="RunManager" selected="TestNG.LoginTest.ShouldBeAbleToLoginWithEmailAndPassword">
     <configuration name="BuildingRegister" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.qacart.todo.testcases.BuildingRegister" />
       <module name="TestingAnToDoApplication" />
@@ -166,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ToDoTest.ShouldBeAbleToDeleteToDo" />
-        <item itemvalue="Application.BuildingRegister" />
         <item itemvalue="TestNG.LoginTest.ShouldBeAbleToLoginWithEmailAndPassword" />
         <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.ToDoTest.ShouldBeAbleToDeleteToDo" />
         <item itemvalue="TestNG.ToDoTest.ShouldBeAbleToAddNewToDo" />
+        <item itemvalue="Application.BuildingRegister" />
       </list>
     </recent_temporary>
   </component>
