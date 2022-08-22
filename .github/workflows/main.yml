@@ -11,6 +11,6 @@ jobs:
         with:
           java-version: '11'
           cache : maven
-          distribution: 'adopt'
+          distribution: 'Corretto'
       - uses: browser-actions/setup-chrome@latest
       - run: mvn clean test
