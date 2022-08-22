@@ -25,7 +25,7 @@ public class ToDoPage2 {
 
         public boolean isItLogged() {
 
-            return driver.findElement(welcomeMessage).isDisplayed();
+            return this.driver.findElement(welcomeMessage).isDisplayed();
         }
 
         public NewToDoPage2 clickingOnAddToDo () {

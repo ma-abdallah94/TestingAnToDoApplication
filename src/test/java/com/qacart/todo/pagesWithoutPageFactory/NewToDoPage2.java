@@ -1,5 +1,6 @@
 package com.qacart.todo.pagesWithoutPageFactory;
 
+import com.qacart.todo.utils.ConfigUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -11,6 +12,11 @@ public class NewToDoPage2 {
 
     public NewToDoPage2(WebDriver driver) {
         this.driver= driver;
+    }
+
+    public NewToDoPage2 load(){
+        driver.get(ConfigUtils.getInstance().baseUrl() + "/todo/new");
+        return this ;
     }
 
     public ToDoPage2 addingToDo (String toDoName) {

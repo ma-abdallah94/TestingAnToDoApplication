@@ -5,6 +5,7 @@ import com.qacart.todo.api.RegisterAPI;
 import com.qacart.todo.api.TasksAPI;
 import com.qacart.todo.factory.BaseFactoryTest;
 import com.qacart.todo.pagesWithoutPageFactory.LoginPage2;
+import com.qacart.todo.pagesWithoutPageFactory.NewToDoPage2;
 import com.qacart.todo.pagesWithoutPageFactory.ToDoPage2;
 import com.qacart.todo.utils.ConfigUtils;
 import io.qameta.allure.Feature;
@@ -20,11 +21,14 @@ public class ToDoTest extends BaseFactoryTest {
     @Story("Adding To Do ")
     @Test (description = "Testing adding new todo ")
     public void ShouldBeAbleToAddNewToDo()  {
+        RegisterAPI registerAPI = new RegisterAPI();
+        registerAPI.register();
 
-        LoginPage2 loginPage = new LoginPage2(driver) ;
-        String actualResult = loginPage.load()
-                .login(ConfigUtils.getInstance().email(), ConfigUtils.getInstance().password())
-                .clickingOnAddToDo()
+        NewToDoPage2 newToDoPage2 = new NewToDoPage2(driver) ;
+        newToDoPage2.load();
+        InjectCookiesIntoBrowser(registerAPI.getCookies());
+
+        String actualResult = newToDoPage2.load()
                 .addingToDo("New Task 1")
                 .getToDoText();
         Assert.assertEquals(actualResult , "New Task 1");
