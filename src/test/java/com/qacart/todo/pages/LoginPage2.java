@@ -1,12 +1,9 @@
-package com.qacart.todo.pagesWithoutPageFactory;
+package com.qacart.todo.pages;
 
 
 import com.qacart.todo.utils.ConfigUtils;
-import com.qacart.todo.utils.PropUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
-import java.util.Properties;
 
 public class LoginPage2 {
 

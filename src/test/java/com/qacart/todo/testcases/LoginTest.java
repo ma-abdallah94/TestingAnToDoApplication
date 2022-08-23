@@ -3,9 +3,7 @@ package com.qacart.todo.testcases;
 
 import com.qacart.todo.api.RegisterAPI;
 import com.qacart.todo.factory.BaseFactoryTest;
-import com.qacart.todo.pagesWithoutPageFactory.LoginPage2;
-import com.qacart.todo.pagesWithoutPageFactory.ToDoPage2;
-import com.qacart.todo.utils.ConfigUtils;
+import com.qacart.todo.pages.ToDoPage2;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
 import org.testng.Assert;

@@ -1,4 +1,4 @@
-package com.qacart.todo.pagesWithoutPageFactory;
+package com.qacart.todo.pages;
 
 import com.qacart.todo.utils.ConfigUtils;
 import org.openqa.selenium.By;
